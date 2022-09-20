@@ -1,0 +1,100 @@
+﻿@{
+    ViewData["Title"] = "Cadastro de Produtos";
+}
+<form>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Nome</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Descrição</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+    </div>
+</form>
+<div class="form-group">
+    <label for="exampleFormControlSelect1">Categoria de Produtos</label>
+    <select class="form-control-sm" id="exampleFormControlSelect1">
+        <option>Eletrônicos</option>
+        <option>Celulares</option>
+        <option>Informática</option>
+    </select>
+</div>
+<td>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+            Perecível?
+        </label>
+    </div>
+</td>
+<p>
+    <div class="bnt-group" role="group">
+        <button type="button" class="btn btn-primary">Cadastrar</button>
+    </div>
+
+</p>
+<div class="text-center">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Descrição</th>
+                <th scope="col">Categoria</th>
+                <th scope="col">Ativo</th>
+                <th scope="col">Ação</th>
+                <td>
+                    <div class="bnt-group" role="group">
+                        <a role="button" class=""></a>
+                        <a role="button" class=""></a>
+                    </div>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Pen Drive</td>
+                <td>Pen Drive 8 8gb</td>
+                <td>Informática</td>
+                <td>Ativo</td>
+                <td>Não</td>
+                <td>
+                    <div class="bnt-group" role="group">
+                        <a role="button" class="btn btn-success">Atualizar</a>
+                        <a role="button" class="btn btn-danger">Deletar</a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Iphone 5s</td>
+                <td>Iphone 5s 16 gbytes - Apple</td>
+                <td>Celulares</td>
+                <td>Ativo</td>
+                <td>Não</td>
+                <td>
+                    <div class="bnt-group" role="group">
+                        <a role="button" class="btn btn-success">Atualizar</a>
+                        <a role="button" class="btn btn-danger">Deletar</a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Tv LG Smart</td>
+                <td>Tv LG Smart 100 pol</td>
+                <td>Eletrônicos</td>
+                <td>Ativo</td>
+                <td>Não</td>
+                <td>
+                    <div class="bnt-group" role="group">
+                        <a role="button" class="btn btn-success">Atualizar</a>
+                        <a role="button" class="btn btn-danger">Deletar</a>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
